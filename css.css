@@ -1,8 +1,37 @@
-#navbar{
-	
-
+body{
+	background-color: ghostwhite;
 }
 
 #logo{
-	margin:auto;
+	margin: 50px auto auto auto;
+}
+.navbar{
+    margin-top: 150px;
+    border: 0;
+    background-image: linear-gradient(
+      lightgreen, azure
+    );
+}
+.sheet{
+	background-color: white;
+	margin-top: 100px;
+	text-align: center;
+	box-shadow: inset 0 0 1em gold, 0 0 1em black;
+	width: 80%;
+	margin-left: 100px;
+	padding: 20px;
+}
+#topPart{
+	background-image: linear-gradient(
+      greenyellow, lightgreen
+    );
+}
+.pbtn{
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 10px solid rgba(255, 255, 255, 0);
+	width: 390px;
+}
+a:hover {
+    background-color: yellow;
 }
